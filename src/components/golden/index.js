@@ -6,7 +6,7 @@ import EclipseImg_3 from "../../assets/img/Ellipse_3.png";
 export const Golden = () => {
   return (
     <div className="relative z-10 py-20 bg-gradient-to-r from-bg-grad-start to-bg-grad-end">
-      <div className="relative z-10 items-center px-20 mx-auto max-w-360">
+      <div className="relative z-10 items-center pl-20 mx-auto max-w-360">
         <div className="absolute right-0 bottom-28">
           <img src={EclipseImg_3.src} alt="Eclipse Image" />
         </div>
@@ -28,9 +28,9 @@ export const Golden = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className="absolute right-0 hidden vertical-center xl:block ">
-        <img src={GoldenImage.src} alt="Golden Image" />
+        <div className="absolute right-0 hidden vertical-center xl:block ">
+          <img src={GoldenImage.src} alt="Golden Image" />
+        </div>
       </div>
     </div>
   );
