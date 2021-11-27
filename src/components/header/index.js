@@ -7,7 +7,7 @@ import LogoIcon from "../../assets/svg/logo.svg";
 export const Header = () => {
   return (
     <div className="relative bg-black">
-      <div className="mx-auto max-w-1440">
+      <div className="mx-auto max-w-360">
         <div className="mx-20 flex flex-row items-start pt-6 pb-2.5">
           <div className="flex-grow">
             <a href="#">

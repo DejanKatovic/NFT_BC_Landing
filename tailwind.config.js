@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
-        1440: "1440px",
+        360: "1440px",
+        46.5: "11.625rem",
+        150: "37.5rem",
+        186: "46.5rem",
       },
       colors: {
         "bg-grad-start": "#AC32E4",
@@ -31,11 +34,6 @@ module.exports = {
       },
       lineHeight: {
         36: "9rem",
-      },
-      maxWidth: {
-        46.5: "11.625rem",
-        150: "37.5rem",
-        186: "46.5rem",
       },
       spacing: {
         4.25: "1.0625rem",

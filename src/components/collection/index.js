@@ -6,7 +6,7 @@ import Dot1 from "../../assets/img/dot-1.png";
 
 export const Collection = ({ cards }) => {
   return (
-    <div className="relative z-20 mx-auto max-w-1440 pt-14">
+    <div className="relative z-20 mx-auto max-w-360 pt-14">
       <div className="absolute hidden right-12 -top-10 xln:block">
         <img src={Dot1.src} alt="Dot Image" />
       </div>

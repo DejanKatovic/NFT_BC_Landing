@@ -6,7 +6,7 @@ import SparkIcon from "../../assets/svg/spark.svg";
 
 export const Banner = () => {
   return (
-    <div className="relative z-30 mx-auto max-w-1440">
+    <div className="relative z-30 mx-auto max-w-360">
       <div className="absolute left-0 top-24">
         <img src={EclipseImg_1.src} alt="Eclipse Image" />
       </div>

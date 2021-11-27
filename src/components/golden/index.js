@@ -6,11 +6,11 @@ import EclipseImg_3 from "../../assets/img/Ellipse_3.png";
 export const Golden = () => {
   return (
     <div className="relative z-10 py-20 bg-gradient-to-r from-bg-grad-start to-bg-grad-end">
-      <div className="absolute right-0 bottom-28">
-        <img src={EclipseImg_3.src} alt="Eclipse Image" />
-      </div>
-      <div className="items-center px-20 mx-auto max-w-1440">
-        <div className="ml-auto mr-auto max-w-186 xl:ml-0">
+      <div className="relative z-10 items-center px-20 mx-auto max-w-360">
+        <div className="absolute right-0 bottom-28">
+          <img src={EclipseImg_3.src} alt="Eclipse Image" />
+        </div>
+        <div className="relative ml-auto mr-auto max-w-186 xl:ml-0">
           <div className="col-span-7">
             <h3 className="mb-4 text-5xl font-bold text-golden font-poppins">
               The Golden Guests

@@ -7,7 +7,7 @@ import InstagramIcon from "../../assets/svg/instagram.svg";
 
 export const Footer = () => {
   return (
-    <div className="mx-auto max-w-1440">
+    <div className="mx-auto max-w-360">
       <div className="mx-14">
         <div className="h-px bg-white" />
         <div className="flex flex-row items-center pt-6 pb-16">

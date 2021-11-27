@@ -5,7 +5,7 @@ import Dot2 from "../../assets/img/dot-2.png";
 
 export const Contact = () => {
   return (
-    <div className="relative py-28">
+    <div className="relative mx-auto py-28 max-w-360">
       <div className="absolute bottom-0 left-0">
         <img src={Dot2.src} alt="Dot Image" />
       </div>

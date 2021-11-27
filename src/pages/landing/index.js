@@ -19,8 +19,10 @@ export const Landing = () => {
 
   return (
     <div className="relative bg-light-black">
-      <div className="absolute top-0 right-0">
-        <img src={EclipseImg_2.src} alt="Eclipse Image" />
+      <div className="absolute top-0 left-0 w-full">
+        <div className="flex justify-end mx-auto max-w-360">
+          <img src={EclipseImg_2.src} alt="Eclipse Image" />
+        </div>
       </div>
       <Header />
       <Banner />
