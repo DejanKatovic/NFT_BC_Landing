@@ -15,7 +15,7 @@ export const Landing = () => {
   const [cards, setCards] = useState([]);
   useEffect(() => {
     setCards(mockData.data);
-  });
+  }, []);
 
   return (
     <div className="relative bg-light-black">
